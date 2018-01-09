@@ -22,16 +22,16 @@ class Car
     private $id;
 
     /**
-     * @var string
+     * @var Model
      *
-     * @ORM\Column(name="name", type="string", length=255)
+     * @ORM\ManyToOne(targetEntity="CarBundle\Entity\Model", inversedBy="cars")
      */
-    private $name;
+    private $model;
 
     /**
-     * @var string
+     * @var Mark
      *
-     * @ORM\Column(name="mark", type="string", length=255)
+     * @ORM\ManyToOne(targetEntity="CarBundle\Entity\Mark", inversedBy="cars")
      */
     private $mark;
 
@@ -90,29 +90,6 @@ class Car
         return $this->id;
     }
 
-    /**
-     * Set name
-     *
-     * @param string $name
-     *
-     * @return Car
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-
-        return $this;
-    }
-
-    /**
-     * Get name
-     *
-     * @return string
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
 
     /**
      * Set mark
@@ -208,5 +185,29 @@ class Car
     public function getNavigation()
     {
         return $this->navigation;
+    }
+
+    /**
+     * Set model
+     *
+     * @param \CarBundle\Entity\Mark $model
+     *
+     * @return Car
+     */
+    public function setModel(\CarBundle\Entity\Mark $model = null)
+    {
+        $this->model = $model;
+
+        return $this;
+    }
+
+    /**
+     * Get model
+     *
+     * @return \CarBundle\Entity\Mark
+     */
+    public function getModel()
+    {
+        return $this->model;
     }
 }
