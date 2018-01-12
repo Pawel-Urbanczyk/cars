@@ -20,7 +20,7 @@
                 <td><a href="{{ path('car_show', { 'id': car.id }) }}">{{ car.id }}</a></td>
                 <td>{{ car.price }}</td>
                 <td>{{ car.year }}</td>
-                <td>{% if entity.navigation %}Yes{% else %}No{% endif %}</td>
+                <td>{% if car.navigation %}Yes{% else %}No{% endif %}</td>
                 <td>{{ car.description }}</td>
                 <td>
                     <ul>

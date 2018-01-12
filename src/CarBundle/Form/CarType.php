@@ -38,9 +38,9 @@ class CarType extends AbstractType
                 'required' => true,
                 'class'    => 'CarBundle\Entity\Model'
             ])
-            ->add('make', EntityType::class, [
+            ->add('mark', EntityType::class, [
                 'required' => true,
-                'class'    => 'CarBundle\Entity\Make'
+                'class'    => 'CarBundle\Entity\Mark '
             ]);
     }
 
