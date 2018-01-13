@@ -32,7 +32,7 @@ class CarController extends Controller
 
         $result = $dataChecker->checkCar($car);
         if($result){
-            $this->addFlash('success', $result);
+            $this->addFlash('success', 'Car promoted');
         }else{
             $this->addFlash('warning', 'Car not aplicable');
         }

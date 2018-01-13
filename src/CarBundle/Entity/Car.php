@@ -56,6 +56,11 @@ class Car
      */
     private $navigation;
 
+    /**
+     * @var boolean
+     * @ORM\Column(name="promote", type="boolean")
+     */
+    private $promote;
 
     /**
      * @var string
@@ -210,4 +215,22 @@ class Car
     {
         return $this->model;
     }
+
+    /**
+     * @return bool
+     */
+    public function isPromote()
+    {
+        return $this->promote;
+    }
+
+    /**
+     * @param bool $promote
+     */
+    public function setPromote($promote)
+    {
+        $this->promote = $promote;
+    }
+
+
 }
