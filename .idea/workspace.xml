@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9c97d546-2351-413d-bb08-311383d0ccff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Controller/CarController.php" afterPath="$PROJECT_DIR$/src/CarBundle/Controller/CarController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Entity/Car.php" afterPath="$PROJECT_DIR$/src/CarBundle/Entity/Car.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Entity/Mark.php" afterPath="$PROJECT_DIR$/src/CarBundle/Entity/Mark.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Entity/Model.php" afterPath="$PROJECT_DIR$/src/CarBundle/Entity/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Form/CarType.php" afterPath="$PROJECT_DIR$/src/CarBundle/Form/CarType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Menu/Builder.php" afterPath="$PROJECT_DIR$/src/AppBundle/Menu/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/show.html.twig" afterPath="$PROJECT_DIR$/src/CarBundle/Resources/views/car/show.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +32,7 @@
       <file leaf-file-name="CarType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CarBundle/Form/CarType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
+            <state relative-caret-position="105">
               <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
@@ -49,16 +47,6 @@
               <folding>
                 <element signature="e#40#73#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Form/Type/EntityType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -78,21 +66,9 @@
       <file leaf-file-name="Car.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CarBundle/Entity/Car.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4074">
+            <state relative-caret-position="343">
               <caret line="194" column="18" lean-forward="false" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mark.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CarBundle/Entity/Mark.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2415">
-              <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-              <folding>
-                <element signature="e#36#84#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -107,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CarController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CarBundle/Controller/CarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="1953">
               <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
               <folding>
                 <element signature="e#40#85#0#PHP" expanded="true" />
@@ -119,11 +95,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Builder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Menu/Builder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="105">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -141,7 +137,6 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Menu/Builder.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/CarBundle/Resources/views/Default/show.html.twig" />
@@ -149,13 +144,14 @@
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/CarBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/CarBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/CarBundle/Resources/views/car/show.html.twig" />
         <option value="$PROJECT_DIR$/src/CarBundle/Entity/Model.php" />
         <option value="$PROJECT_DIR$/src/CarBundle/Entity/Mark.php" />
         <option value="$PROJECT_DIR$/src/CarBundle/Entity/Car.php" />
         <option value="$PROJECT_DIR$/src/CarBundle/Form/CarType.php" />
         <option value="$PROJECT_DIR$/src/CarBundle/Controller/CarController.php" />
+        <option value="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/CarBundle/Resources/views/car/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Menu/Builder.php" />
       </list>
     </option>
   </component>
@@ -393,6 +389,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menu" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -547,7 +583,7 @@
       <workItem from="1515499296412" duration="9161000" />
       <workItem from="1515760849234" duration="4067000" />
       <workItem from="1515767663639" duration="70000" />
-      <workItem from="1515842045744" duration="1304000" />
+      <workItem from="1515842045744" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono prefix w routingu.">
       <created>1515351793230</created>
@@ -640,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515762050382</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Poprawa kilku błędów.">
+      <created>1515843349589</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1515843349589</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32859000" />
+    <option name="totallyTimeSpent" value="33936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -718,7 +761,8 @@
     <MESSAGE value="Ręczne dodanie crud po nie udanej próbie z konsoli, problem z @Template() / use" />
     <MESSAGE value="Dodanie use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template; w CarController, poprawa encji na car w views/car" />
     <MESSAGE value="Poprawa kilku błędów." />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawa kilku błędów." />
+    <MESSAGE value="Dodanie elementu menu, ostylowanie tabeli." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie elementu menu, ostylowanie tabeli." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -934,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Menu/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/Default/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1022,29 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarBundle/Entity/Mark.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2415">
@@ -1073,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CarBundle/Entity/Car.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4074">
-          <caret line="194" column="18" lean-forward="false" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1101,21 +1107,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarBundle/Entity/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="194" column="18" lean-forward="false" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarBundle/Form/CarType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
+        <state relative-caret-position="105">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarBundle/Resources/views/car/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CarBundle/Controller/CarController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="1953">
           <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
           <folding>
             <element signature="e#40#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Menu/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
