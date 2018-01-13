@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c97d546-2351-413d-bb08-311383d0ccff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" afterPath="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,8 +112,8 @@
       <file leaf-file-name="AbcCheckCarsCommand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -149,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/CarBundle/Service/DataChecker.php" />
         <option value="$PROJECT_DIR$/src/CarBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/CarBundle/Resources/views/car/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php" />
       </list>
     </option>
   </component>
@@ -418,7 +419,7 @@
       <workItem from="1515499296412" duration="9161000" />
       <workItem from="1515760849234" duration="4067000" />
       <workItem from="1515767663639" duration="70000" />
-      <workItem from="1515842045744" duration="6885000" />
+      <workItem from="1515842045744" duration="7620000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono prefix w routingu.">
       <created>1515351793230</created>
@@ -546,11 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515849149413</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Dodanie custom comsand w konsoli">
+      <created>1515849337328</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1515849337328</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38440000" />
+    <option name="totallyTimeSpent" value="39175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -628,7 +636,8 @@
     <MESSAGE value="Dodanie service  i promote." />
     <MESSAGE value="Dodanie konfiguracji service" />
     <MESSAGE value="Dodanie kolumny promote w bazie danych i wyświetlenie informacji." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie kolumny promote w bazie danych i wyświetlenie informacji." />
+    <MESSAGE value="Dodanie custom comsand w konsoli" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie custom comsand w konsoli" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1032,8 +1041,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding />
         </state>
       </provider>
