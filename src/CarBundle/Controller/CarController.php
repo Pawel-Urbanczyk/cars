@@ -27,9 +27,16 @@ class CarController extends Controller
     {
         $dataChecker = $this->get('car.data_checker');
         $em = $this->getDoctrine()->getEntityManager();
+
         $car = $em->getRepository('CarBundle:Car')->find($id);
+
         $result = $dataChecker->checkCar($car);
-        $this->addFlash('success', $result);
+        if($result){
+            $this->addFlash('success', $result);
+        }else{
+            $this->addFlash('warning', 'Car not aplicable');
+        }
+
         return $this->redirectToRoute("car_index");
     }
 
