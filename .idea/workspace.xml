@@ -112,8 +112,8 @@
       <file leaf-file-name="AbcCheckCarsCommand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="588">
+              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -419,7 +419,7 @@
       <workItem from="1515499296412" duration="9161000" />
       <workItem from="1515760849234" duration="4067000" />
       <workItem from="1515767663639" duration="70000" />
-      <workItem from="1515842045744" duration="7620000" />
+      <workItem from="1515842045744" duration="7977000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono prefix w routingu.">
       <created>1515351793230</created>
@@ -554,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515849337328</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Zdefiniowanie custom command.">
+      <created>1515850067566</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1515850067566</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39175000" />
+    <option name="totallyTimeSpent" value="39532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -637,7 +644,8 @@
     <MESSAGE value="Dodanie konfiguracji service" />
     <MESSAGE value="Dodanie kolumny promote w bazie danych i wyświetlenie informacji." />
     <MESSAGE value="Dodanie custom comsand w konsoli" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie custom comsand w konsoli" />
+    <MESSAGE value="Zdefiniowanie custom command." />
+    <option name="LAST_COMMIT_MESSAGE" value="Zdefiniowanie custom command." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CarBundle/Command/AbcCheckCarsCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="588">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding />
         </state>
       </provider>
