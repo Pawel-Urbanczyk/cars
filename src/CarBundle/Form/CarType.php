@@ -9,6 +9,8 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Validator\Constraints\NotBlank;
 
+
+
 class CarType extends AbstractType
 {
     /**
@@ -18,14 +20,16 @@ class CarType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('price', TextType::class, [
+            ->add('price', TextType::class,
+            [
                 'required'    => true,
                 'constraints' =>
                     [
                         new NotBlank()
                     ]
             ])
-            ->add('year', TextType::class, [
+            ->add('year', TextType::class,
+                [
                 'required'    => true,
                 'constraints' =>
                     [
@@ -40,7 +44,7 @@ class CarType extends AbstractType
             ])
             ->add('mark', EntityType::class, [
                 'required' => true,
-                'class'    => 'CarBundle\Entity\Mark '
+                'class'    => 'CarBundle\Entity\Mark'
             ]);
     }
 

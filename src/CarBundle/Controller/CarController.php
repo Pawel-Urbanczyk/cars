@@ -45,7 +45,8 @@ class CarController extends Controller
     public function newAction(Request $request)
     {
         $car = new Car();
-        $form = $this->createForm(new CarType(), $car);
+        //$form = $this->createForm(new CarType(), $car);
+        $form = $this->createForm(CarType::class, $car);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
@@ -89,7 +90,8 @@ class CarController extends Controller
     public function editAction(Request $request, Car $car)
     {
         $deleteForm = $this->createDeleteForm($car);
-        $editForm = $this->createForm(new CarType(), $car);
+        //$editForm = $this->createForm(new CarType(), $car);
+        $editForm = $this->createForm(CarType::class, $car);
         $editForm->handleRequest($request);
 
         if ($editForm->isSubmitted() && $editForm->isValid()) {
