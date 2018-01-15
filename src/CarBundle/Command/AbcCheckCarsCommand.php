@@ -14,21 +14,22 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class AbcCheckCarsCommand extends Command
 {
-    /** @var DataChecker*/
-    protected $carCheckers;
-    /** @var EntityManager*/
+    /** @var DataChecker */
+    protected $carChecker;
+    /** @var EntityManager */
     protected $manager;
 
     /**
      * AbcCheckCarsCommand constructor.
+     *
      * @param DataChecker $carCheckers
      * @param EntityManager $manager
      */
-    public function __construct(DataChecker $carCheckers, EntityManager $manager)
+    public function __construct(DataChecker $carChecker, EntityManager $manager)
     {
-        $this->carCheckers = $carCheckers;
+        $this->carChecker = $carChecker;
         $this->manager = $manager;
-        parent:: __construct();
+        parent::__construct();
     }
 
 
@@ -44,6 +45,7 @@ class AbcCheckCarsCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+
        $carRepository = $this->manager->getRepository('CarBundle:Car');
        $cars = $carRepository->findAll();
        $bar = new ProgressBar($output, count($cars));
@@ -52,13 +54,12 @@ class AbcCheckCarsCommand extends Command
 
        $bar->setFormat($argument);
        $bar->start();
-
-        foreach ($cars as $car) {
-           $this->carChecker->checkCar($car);
-           sleep(1);
-           $bar->advance();
-       }
-       $bar->finish();
+           foreach($cars as $car){
+               $this->carChecker->checkCar($car);
+               sleep(1);
+               $bar->advance();
+           }
+            $bar->finish();
 
     }
 
