@@ -58,7 +58,7 @@ class Car
 
     /**
      * @var boolean
-     * @ORM\Column(name="promote", type="boolean")
+     * @ORM\Column(name="promote", type="boolean", nullable=true)
      */
     private $promote;
 
